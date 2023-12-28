@@ -1,0 +1,48 @@
+/* SearchedUser.css */
+.page-container.searched-name-page {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 800px;
+  background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border-radius: 28px;
+  opacity: 1;
+  }
+  
+  h1 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+  }
+  
+  .employee-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .employee-item {
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  

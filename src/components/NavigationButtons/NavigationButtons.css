@@ -1,0 +1,28 @@
+/* NavigationButtons.css */
+.navigation-buttons {
+   /* Layout Properties */
+   position: fixed;
+    top: 525px;
+    left: 0px;
+    width: 39px;
+    height: 70px;
+    /* UI Properties */
+    background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
+    box-shadow: inset 8px 4px 4px #00000040;
+    mix-blend-mode: normal;
+    border: 1px solid #0F2323;
+    opacity: 1;
+  }
+  
+  .nav-button {
+    position: relative;
+    background-color: #119340;
+    color: #000;
+    padding: 20px 80px;
+    margin-top: 100px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

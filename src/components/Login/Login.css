@@ -1,0 +1,85 @@
+/* Login.css */
+/* Login.css */
+/* ... your existing styles ... */
+
+.login-image {
+  position: absolute;
+  top: 90px;
+  left: 134px;
+  width: 90px;
+  height: 90px;
+  background: transparent url('./Group_3.png') 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+
+.page-container {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 800px;
+  background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border-radius: 28px;
+  opacity: 1;
+}
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  display: block;
+  color: #FFF; /* Change the color accordingly */
+}
+
+.input-container input {
+  top: 336px;
+left: 61px;
+width: 238px;
+height: 42px;
+  /* width: 100%;
+  height: 42px; */
+  background: #1F191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+  mix-blend-mode: normal;
+  opacity: 1;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  color: #FFF; /* Change the color accordingly */
+}
+
+.login-button {
+  width: 100%;
+  height: 42px;
+  background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 2px solid #8CFF0026;
+  opacity: 1;
+  border-radius: 5px;
+  color: #FFF; /* Change the color accordingly */
+}
+
+.forgot-password-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-password-button {
+  text-align: center;
+  font: normal normal normal 15px/20px Mulish;
+  letter-spacing: 0.02px;
+  color: #36A546;
+  opacity: 1;
+  background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+  cursor: pointer;
+}

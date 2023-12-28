@@ -1,0 +1,101 @@
+/* Home.css */
+.page-container {
+  position: relative;
+  top: 63px; /* Adjusted to match the height of the navigation bar */
+  left: 0px;
+  width: 360px;
+  min-height: 100vh; /* Minimum height to cover the entire viewport */
+  background: #000;
+  border-radius: 28px;
+  opacity: 1;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.image-container {
+  text-align: center;
+  margin-top: 104px;
+  margin-bottom: 20px;
+}
+
+.dashboard-image {
+  width: 71px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.employee_prod_dash {
+  font: normal normal bold 10px/25px Source Sans Pro;
+  text-align: center;
+  color: #FFFFFFB3;
+  opacity: 0.84;
+  width: 100%;
+}
+
+.productivity-container {
+  margin-top: 20px;
+}
+
+.productivity-item {
+  margin-bottom: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: baseline;
+}
+
+.productivity-item p {
+  text-align: left;
+  font: normal normal normal 12px/16px Mulish;
+  letter-spacing: 0.01px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-right: 20px;
+  margin-bottom: 0; /* Remove the bottom margin for the day labels */
+}
+
+.productivity-percentage {
+  text-align: left;
+  font: normal normal normal 14px/19px Mulish;
+  letter-spacing: 0.01px;
+  color: #36A546;
+  opacity: 1;
+  margin-right: 0;
+}
+
+/* Add styles for the productivity bar */
+.productivity-bar {
+  height: 8px; /* Adjust the height of the bar as needed */
+  background-color: #36A546;
+  width: 0; /* Initial width, it will be dynamically set based on the percentage */
+  transition: width 0.5s; /* Add a smooth transition effect */
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+}
+
+.home-button,
+.user-button {
+  flex: 2;
+  height: 40px;
+  background: #36A546;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.user-button {
+  margin-right: px;
+}
